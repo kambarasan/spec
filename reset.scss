@@ -1,0 +1,25 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+}
+a{
+  text-decoration: none;
+}
+body{
+  font-family: 'Gotham Pro',sans-serif;
+}
+
+@mixin ani{
+  padding: 10px 30px;
+  background: transparent;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #FFFFFF;
+  transition: .4s;
+  border: 2px solid orangered;
+}
